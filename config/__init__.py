@@ -37,10 +37,10 @@ RUN_VER = "open"
 APP_ID = ""
 APP_TOKEN = ""
 BK_PAAS_HOST = ""
-BK_URL = BK_PAAS_HOST
+BK_URL = "https://ce.bktencent.com:443"
 
-APP_CODE = APP_ID = os.environ.get("APP_ID", APP_ID) or os.getenv("BKPAAS_APP_ID")
-SECRET_KEY = APP_TOKEN = os.environ.get("APP_TOKEN", APP_TOKEN) or os.getenv("BKPAAS_APP_SECRET")
+APP_CODE = APP_ID = "litq"
+SECRET_KEY = APP_TOKEN = "03ae6549-bd79-46ed-8430-b49de21ab2d7"
 RUN_VER = os.environ.get("RUN_VER", RUN_VER)
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
